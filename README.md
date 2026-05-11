@@ -31,7 +31,7 @@ On each run, the script:
 ## Install
 
 ```sh
-git clone https://github.com/<you>/time-machine-healthchecks.git
+git clone https://github.com/lolgas/time-machine-healthchecks.git
 cd time-machine-healthchecks
 cp config.example.json config.json
 # Edit config.json: set healthcheck_uuid, tune thresholds if needed.
