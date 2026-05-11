@@ -60,7 +60,7 @@ The output redirect is **required** — the script's EXIT trap tails this log fi
 | Key | Type | Description |
 |---|---|---|
 | `healthcheck_uuid` | string | Your healthchecks.io check UUID |
-| `stale_after_hours` | int | How old the last successful backup can be before alerting. Time Machine runs hourly, so `3` is a sensible default (lets one or two skips pass without firing). |
+| `stale_after_hours` | int | How old the last successful backup can be before alerting. Set this to comfortably exceed your Time Machine schedule — e.g. `3` is a reasonable starting point if you back up hourly and want to tolerate the occasional skip. |
 | `log_lookback_hours` | int | How far back `log show` queries for events. `24` is generous and cheap. |
 
 ## Exit codes
