@@ -1,0 +1,5 @@
+{
+  "healthcheck_uuid": "your-healthchecks-io-uuid-here",
+  "stale_after_hours": 3,
+  "log_lookback_hours": 24
+}

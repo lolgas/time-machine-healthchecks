@@ -1,0 +1,5 @@
+# Local configuration — contains your healthchecks.io UUID
+config.json
+
+# Runtime logs
+*.log
